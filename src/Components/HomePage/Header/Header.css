@@ -1,0 +1,38 @@
+.header-bg{
+    background-image: url(../../../Image/Header_bg.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.header-text{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.download-btn{
+    color: #f07873;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #f07873;
+    display: inline-block;
+    transition: all .4s ease 0s;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.phone-img{
+    vertical-align: middle;
+    border-style: none;
+    height: 100%;
+}
+@media only screen and (max-width: 768px)
+{
+    .header-bg{
+        padding: 100px 0;
+        display: block!important;
+        height: unset;
+        max-height: unset;
+    }
+    
+}
